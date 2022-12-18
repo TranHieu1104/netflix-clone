@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px;
+}
+header .navbar .logo {
+  width: 140px;
+  z-index: 1;
+}
+header .navbar .language-selector {
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  padding: 8px 16px;
+}
+header .navbar .button {
+  z-index: 1;
+}
+header .navbar .sign-in-btn {
+  background: #e50914;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 24px;
+}
+header .header-content {
+  margin-top: -86px;
+}/*# sourceMappingURL=style.css.map */
